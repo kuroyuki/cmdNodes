@@ -23,7 +23,8 @@ SOURCES += main.cpp \
     dojoapp.cpp \
     utils/logger.cpp \
     dojo/dojodb.cpp \
-    utils/wsserver.cpp
+    utils/wsserver.cpp \
+    utils/gephi.cpp
 
 HEADERS += \
     dojo/dojonetwork.h \
@@ -32,4 +33,8 @@ HEADERS += \
     dojoapp.h \
     utils/logger.h \
     dojo/dojodb.h \
-    utils/wsserver.h
+    utils/wsserver.h \
+    utils/gephi.h
+
+OTHER_FILES += \
+    html/htm3d.html

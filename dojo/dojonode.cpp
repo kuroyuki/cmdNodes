@@ -28,8 +28,7 @@ void dojoNode::process(){
 
     }
 }
-void dojoNode::synapseGrowing(){
-    cone = cone*1.5;
+void dojoNode::synapseGrowing(){   
     //get node growing cone length
     //get neighbours of growing cone vector end
     //check is there unconnected nodes
